@@ -1,0 +1,25 @@
+{
+  "name": "@equalint/cli",
+  "version": "0.0.1",
+  "description": "Official CLI for EquaLint",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "bin": {
+    "equalint": "bin/equalint.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equalint/cli.git"
+  },
+  "homepage": "https://github.com/equalint/cli",
+  "bugs": {
+    "url": "https://github.com/equalint/cli/issues"
+  }
+}
