@@ -1,0 +1,30 @@
+{
+  "name": "@equalint/core",
+  "version": "0.0.1",
+  "description": "Core engine for the EquaLint accessibility evidence toolkit",
+  "main": "index.js",
+  "publishConfig":{
+    "access": "public"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equalint/core.git"
+  },
+  "keywords": [
+    "accessibility",
+    "lint",
+    "equint",
+    "equalint"
+  ],
+  "author": "Ehab Khedr",
+  "license": "AGPL-3.0-only",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/equalint/core/issues"
+  },
+  "homepage": "https://github.com/equalint/core#readme"
+}
+

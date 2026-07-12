@@ -1,0 +1,24 @@
+{
+  "name": "@equalint/config",
+  "version": "0.0.1",
+  "description": "Shared config and schema package for the EquaLint ecosystem.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equalint/config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "equalint",
+    "config",
+    "schema"
+  ],
+  "author": "Ehab Khedr Fathy",
+  "license": "AGPL-3.0-only",
+  "type": "commonjs"
+}
