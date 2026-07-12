@@ -1,0 +1,26 @@
+{
+  "name": "equalint",
+  "version": "0.0.1",
+  "description": "Equalint is a CLI tool for linting accessibility issues.",
+  "main": "index.js",
+  "bin": { "equalint": "bin/equalint.js" },
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/equalint/equalint.git"
+  },
+  "dependencies": {
+    "@equalint/core": "*",
+    "@equalint/config": "*",
+    "@equalint/reporters": "*"
+  },
+  "keywords": [
+    "accessibility",
+    "lint",
+    "cli",
+    "a11y",
+    "equint",
+    "equalint",
+    "ci"
+  ]
+}
