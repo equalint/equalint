@@ -160,7 +160,7 @@ Consolidate separate packages (`cli`, `core`, `config`, `reporters`) into a sing
 
 ## EPIC-005: pnpm Native Workspaces Migration
 
-### Status: In Progress
+### Status: Done
 **Assignee:** Antigravity
 **Reporter:** Ehab Khedr Fathy
 **Priority:** High
@@ -174,8 +174,8 @@ Transition the workspaces monorepo package manager from plain npm to pnpm native
 3. [x] Create a root `pnpm-workspace.yaml` specifying workspaces packages.
 4. [x] Configure local dependencies in `packages/equalint/package.json` to use `workspace:*`.
 5. [x] Run `pnpm install` at root to generate `pnpm-lock.yaml`.
-6. [/] Commits are pushed, a pull request is created, and merged into `main`.
-7. [ ] Walkthrough report is updated.
+6. [x] Commits are pushed, a pull request is created, and merged into `main`.
+7. [x] Walkthrough report is updated.
 
 ---
 
@@ -190,7 +190,7 @@ Transition the workspaces monorepo package manager from plain npm to pnpm native
 - **Action:** Run pnpm install to link workspaces and create pnpm-lock.yaml.
 
 ### [EQL-17] PR & Merge
-- **Status:** In Progress
+- **Status:** Done
 - **Action:** Commit, push branch, create PR and merge to `main`.
 
 
