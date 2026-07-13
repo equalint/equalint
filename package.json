@@ -1,7 +1,4 @@
 {
   "name": "equalint-monorepo",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "private": true
 }

@@ -122,7 +122,7 @@ Create a new package called `@equalint/reporters` inside the `reporters` workspa
 
 ## EPIC-004: Monorepo Workspaces Consolidation
 
-### Status: In Progress
+### Status: Done
 **Assignee:** Antigravity
 **Reporter:** Ehab Khedr Fathy
 **Priority:** High
@@ -137,8 +137,8 @@ Consolidate separate packages (`cli`, `core`, `config`, `reporters`) into a sing
 4. [x] Root `package.json` defines workspaces `["packages/*"]` and is private.
 5. [x] `packages/equalint/package.json` dependencies point to the workspace packages (`*`).
 6. [x] `npm install` is run at the root to link the workspace packages successfully.
-7. [ ] Commits are pushed, a pull request is created, and merged into `main`.
-8. [ ] Walkthrough report is updated.
+7. [x] Commits are pushed, a pull request is created, and merged into `main`.
+8. [x] Walkthrough report is updated.
 
 ---
 
@@ -149,10 +149,48 @@ Consolidate separate packages (`cli`, `core`, `config`, `reporters`) into a sing
 - **Action:** Rename GitHub repo, migrate git, move sub-packages under `packages/`, configure root package.json and workspace dependencies.
 
 ### [EQL-13] Workspace Linking & Testing
-- **Status:** In Progress
+- **Status:** Done
 - **Action:** Run npm install to link packages locally and verify structure.
 
 ### [EQL-14] PR & Merge
-- **Status:** To Do
+- **Status:** Done
 - **Action:** Commit, push feature branch, create PR, and merge to `main`.
+
+---
+
+## EPIC-005: pnpm Native Workspaces Migration
+
+### Status: In Progress
+**Assignee:** Antigravity
+**Reporter:** Ehab Khedr Fathy
+**Priority:** High
+
+### Description
+Transition the workspaces monorepo package manager from plain npm to pnpm native.
+
+### Acceptance Criteria
+1. [x] Remove npm lockfile `package-lock.json`.
+2. [x] Remove workspaces configuration from root `package.json`.
+3. [x] Create a root `pnpm-workspace.yaml` specifying workspaces packages.
+4. [x] Configure local dependencies in `packages/equalint/package.json` to use `workspace:*`.
+5. [x] Run `pnpm install` at root to generate `pnpm-lock.yaml`.
+6. [/] Commits are pushed, a pull request is created, and merged into `main`.
+7. [ ] Walkthrough report is updated.
+
+---
+
+## Tasks & Sub-Tasks
+
+### [EQL-15] Workspaces Manager Transition
+- **Status:** Done
+- **Action:** Delete package-lock.json, remove npm workspaces config, create pnpm-workspace.yaml, and update packages/equalint dependencies to workspace:*.
+
+### [EQL-16] Native Installation & Lockfile Setup
+- **Status:** Done
+- **Action:** Run pnpm install to link workspaces and create pnpm-lock.yaml.
+
+### [EQL-17] PR & Merge
+- **Status:** In Progress
+- **Action:** Commit, push branch, create PR and merge to `main`.
+
 

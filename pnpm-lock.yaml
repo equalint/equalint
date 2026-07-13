@@ -1,0 +1,27 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/config: {}
+
+  packages/core: {}
+
+  packages/equalint:
+    dependencies:
+      '@equalint/config':
+        specifier: workspace:*
+        version: link:../config
+      '@equalint/core':
+        specifier: workspace:*
+        version: link:../core
+      '@equalint/reporters':
+        specifier: workspace:*
+        version: link:../reporters
+
+  packages/reporters: {}

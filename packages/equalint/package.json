@@ -10,9 +10,9 @@
     "url": "git+https://github.com/equalint/equalint.git"
   },
   "dependencies": {
-    "@equalint/core": "*",
-    "@equalint/config": "*",
-    "@equalint/reporters": "*"
+    "@equalint/core": "workspace:*",
+    "@equalint/config": "workspace:*",
+    "@equalint/reporters": "workspace:*"
   },
   "keywords": [
     "accessibility",
