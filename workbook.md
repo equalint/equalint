@@ -197,7 +197,7 @@ Transition the workspaces monorepo package manager from plain npm to pnpm native
 
 ## EPIC-006: Update AGENTS.md for Monorepo Workspace Structure
 
-### Status: In Progress
+### Status: Done
 **Assignee:** Antigravity
 **Reporter:** Ehab Khedr Fathy
 **Priority:** Medium
@@ -208,10 +208,10 @@ Update the project's local agent context in `AGENTS.md` to reflect the progress 
 ### Acceptance Criteria
 1. [x] A GitHub issue is created on `equalint/equalint`.
 2. [x] A feature branch `feature/issue-5-update-agents` is checked out locally.
-3. [/] Update `okf.dates.updated` to `2026-07-14`.
-4. [/] Update relationships in the YAML frontmatter to point to the packages under `packages/` directory instead of root packages.
-5. [/] Update the rules and next actions to reflect the monorepo structure and the completion of the transition epics.
-6. [/] Push branch, create PR, and merge to `main`.
+3. [x] Update `okf.dates.updated` to `2026-07-14`.
+4. [x] Update relationships in the YAML frontmatter to point to the packages under `packages/` directory instead of root packages.
+5. [x] Update the rules and next actions to reflect the monorepo structure and the completion of the transition epics.
+6. [x] Push branch, create PR, and merge to `main`.
 
 ---
 
@@ -222,11 +222,11 @@ Update the project's local agent context in `AGENTS.md` to reflect the progress 
 - **Action:** Create issue #5 on GitHub and checkout feature branch.
 
 ### [EQL-19] AGENTS.md Updating
-- **Status:** In Progress
+- **Status:** Done
 - **Action:** Update relationships, updated date, and rules in AGENTS.md to match the pnpm monorepo structure.
 
 ### [EQL-20] PR & Merge
-- **Status:** To Do
+- **Status:** Done
 - **Action:** Push, create PR, and merge to `main`.
 
 
